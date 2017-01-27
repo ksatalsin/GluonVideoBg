@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="GluonMobile-SingleViewProject1_android" target="1.8" />
+      <module name="GluonMobile-SingleViewProject1_desktop" target="1.8" />
+      <module name="GluonMobile-SingleViewProject1_embedded" target="1.8" />
+      <module name="GluonMobile-SingleViewProject1_ios" target="1.8" />
+      <module name="GluonMobile-SingleViewProject1_main" target="1.8" />
+      <module name="GluonMobile-SingleViewProject1_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

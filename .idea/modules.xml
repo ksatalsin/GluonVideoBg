@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1.iml" filepath="$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_android.iml" filepath="$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_android.iml" group="GluonMobile-SingleViewProject1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_desktop.iml" group="GluonMobile-SingleViewProject1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_embedded.iml" filepath="$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_embedded.iml" group="GluonMobile-SingleViewProject1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_ios.iml" filepath="$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_ios.iml" group="GluonMobile-SingleViewProject1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_main.iml" group="GluonMobile-SingleViewProject1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GluonMobile-SingleViewProject1_test.iml" group="GluonMobile-SingleViewProject1" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'org.javafxports:jfxmobile-plugin:1.2.0'
+    }
+}
+
+apply plugin: 'org.javafxports.jfxmobile'
+
+repositories {
+    jcenter()
+    maven {
+        url 'http://nexus.gluonhq.com/nexus/content/repositories/releases'
+    }
+}
+
+mainClassName = 'com.gluonapplication1.GluonApplication1'
+
+dependencies {
+    compileNoRetrolambda 'com.airhacks:afterburner.mfx:1.6.2'
+
+    compile 'com.gluonhq:charm:4.2.0'
+    /*
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+*/
+
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.google.code.gson:gson:2.6.1'
+
+}
+
+jfxmobile {
+    downConfig {
+        version = '3.1.0'
+        // Do not edit the line below. Use Gluon Mobile Settings in your project context menu instead
+        plugins 'cache', 'connectivity', 'device', 'display', 'lifecycle', 'statusbar', 'storage'
+    }
+    android {
+        compileSdkVersion = '25'
+        manifest = 'src/android/AndroidManifest.xml'
+        androidSdk = 'C:/Android/sdk'
+    }
+    ios {
+        infoPList = file('src/ios/Default-Info.plist')
+        forceLinkClasses = [
+                'com.gluonhq.**.*',
+                'javax.annotations.**.*',
+                'javax.inject.**.*',
+                'javax.json.**.*',
+                'org.glassfish.json.**.*'
+        ]
+        arch = "arm64"
+    }
+}
